@@ -1,0 +1,27 @@
+[project]
+name = "iFAMS"
+version = "6.3.1"
+description = "Interactive Fourier-Transform Analysis for Mass Spectrometry, a tool for mass spectrum white-noise filtering and charge state deconvolution for polydisperse ESI-MS data."
+authors = [
+	{name= "Sean P. Cleary"},
+	{name= "Abdrew K. Swansiger"},
+	{name= "Meghan M. Daniels"},
+	{name= "Kayd L. Meldrum"},
+	{name= "Lily Miller"},
+	{name= "James S. Prell"},
+]
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = ['numpy','PyQt5','matplotlib','scipy']
+
+[project.urls]
+Repository = "https://github.com/prellgroup/iFAMS"
+Issues = "https://github.com/prellgroup/iFAMS/issues"
+Homepage = "https://github.com/prellgroup/iFAMS"
+
+[build-system]
+requires = ["setuptools"]
+build-backend="setuptools.build_meta"
+
+[tool.setuptools.package-dir]
+iFAMS = "iFAMS_Fun"
