@@ -1,0 +1,40 @@
+List index,Parameter Name,Parameter Label
+0,none,iFAMS software version
+1,indirect,ion mode
+2,indirect,type of iFAMS processing
+3,MW.datarho,number of interpolated data points
+4,RT1,chromatogram RT min
+5,RT2,chromatogram RT max
+6,RTfull,full RT
+7,MW.domaintrunc,pre-deconvolution domain adjustment
+8,MW.domainminx,m/z domain min
+9,MW.domainmaxx,m/z domain max
+10,MW.NFmin,noise calculation frequency min
+11,MW.NFmax,noise calculation frequency max
+12,MW.Nlinear_sub,pre-deconvolution baseline subtraction - linear
+13,MW.Nseg_sub,pre-deconvolution baseline subtraction - segmented
+14,MW.Nsubtraction,pre-deconvolution baseline subtraction - multiple of noise
+15,MW.RMSDmult,multiplier for noise-based baseline subtraction
+16,MW.winnum,STFT frequency channels
+17,MW.OF,STFT oversampling factor
+18,MW.window,STFT window type
+19,MW.stft_selec_man,7
+20,MW.stft_box_thresh,STFT automatic selection box adjustment 
+21,MW.stft_range_thresh,STFT automatic selection series range adjustment
+22,none,STFT automatic baseline model correction
+23,MW.submass,Phase analysis - subunit mass
+24,local,Phase analysis - number of harmonics
+25,MW.smoothed,post-deconvolution isotope smoothing
+26,MW.basecor,post-deconvolution baseline correction - minima
+27,MW.NZbased,post-deconvolution baseline correction - Fourier
+28,MW.based,post-deconvolution baseline correction - segmented
+29,MW.paramMatch,parameter match integration (false = bounds match)
+30,MW.minimumX,integration min x
+31,MW.maximumX,integration max x
+32,MW.minimumY,integration min y
+33,MW.deltaY,minimum distance between peaks
+34,MW.ntol,integration noise tolerance
+35,len(MW.bounds)/2,number of peaks for bounds match
+36,len(MW.cs),selections number of charge states
+37,len(MW.rlist),selections number of rectangles
+38,len(MW.batchstore),selections number of series
