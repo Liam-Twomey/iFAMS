@@ -14,9 +14,9 @@ readme = "README.md"
 requires-python = ">=3.7"
 dependencies = [
 	'numpy',
-	'PyQt5',
+	'scipy',
 	'matplotlib',
-	'scipy'
+	'PyQt5',
 ]
 
 [tool.setuptools.package-dir]
@@ -25,7 +25,7 @@ iFAMS = "source"
 
 [project.gui-scripts]
 # this provides an executable to be installed with pipx and uvx
-ifams = "iFAMS:main"
+ifams-gui = "iFAMS:__name__"
 
 [project.urls]
 Repository = "https://github.com/prellgroup/iFAMS"
@@ -36,3 +36,5 @@ Homepage = "https://github.com/prellgroup/iFAMS"
 requires = ["setuptools"]
 build-backend="setuptools.build_meta"
 
+#[tool.uv.build-backend]
+#module-name = ""

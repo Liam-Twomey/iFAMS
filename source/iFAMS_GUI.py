@@ -50,14 +50,14 @@ OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES PERTAINING TO NON-INFRINGEME
 FOR A PARTICULAR PURPOSE.
 """
 
-import iFAMS_Fun.MSload as load
-import iFAMS_Fun.FT as FT
-import iFAMS_Fun.STFT as STFT
-import iFAMS_Fun.Integrate as Int
-import iFAMS_Fun.Phase as phase
-import iFAMS_Fun.Calibration as cal
-import iFAMS_Fun.Isotope_Distr_Calc_string as IsoCalc
-import iFAMS_Fun.batch_param_template as batch
+from .iFAMS_Fun import MSload as load
+from .iFAMS_Fun import FT as FT
+from .iFAMS_Fun import STFT as STFT
+from .iFAMS_Fun import Integrate as Int
+from .iFAMS_Fun import Phase as phase
+from .iFAMS_Fun import Calibration as cal
+from .iFAMS_Fun import Isotope_Distr_Calc_string as IsoCalc
+from .iFAMS_Fun import batch_param_template as batch
 import os
 import sys
 import numpy as np

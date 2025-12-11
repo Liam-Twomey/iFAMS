@@ -10,7 +10,7 @@ UPDATES:
 """
 
 import numpy as np
-import iFAMS_Fun.Isotope_Library_string as IsoLib
+from . import Isotope_Library_string as IsoLib
 
 def datawindow(sum_elem,elem_list,multimer):
     """
