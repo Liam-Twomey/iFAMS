@@ -2,16 +2,19 @@
 
 To download a stable version of iFAMS, go to https://github.com/prellgroup/iFAMS/releases/
 
-- Documentation, including tutorials, can be found in the `documentation` directory.
+- Documentation, including tutorials, can be found in the `documentation/` directory.
 - The source code can be found in the `source/` directory.
 
 ## Installing source code
-There are three ways to install iFAMS source code as a python tool, for instance on a non-Windows machine or to edit the program. pipx or uv are recommended, because they add the tool to $PATH, allowing it to be called as a command.
+There are three ways to install iFAMS source code as a python tool, for instance on a non-Windows machine or to edit the program. `pipx` or `uv` are *strongly* recommended for general use, because they automate installation of the package in its own environment and addition to the system path. This makes the package *substantially* more stable and easy to use.
 
-Note: The files in this fork have been uncompressed and reorganized relative to the parent repo at [https://github.com//prellgroup/iFAMS], so no information in this readme is relevant to the upstream. 
+***Note:*** The files in this fork have been uncompressed and reorganized relative to the parent repo at [https://github.com//prellgroup/iFAMS], so no information in this readme is relevant to the upstream. 
 
 ### pipx installation
-`pipx install git+https://github.com/Liam-Twomey/iFAMS` 
+`pipx` installs the python app so it can be interacted with like a system program.
+```
+pipx install git+https://github.com/Liam-Twomey/iFAMS
+```
 If the installation suceeds, the `ifams` command should now be available in the command line.
 
 ### uv installation
