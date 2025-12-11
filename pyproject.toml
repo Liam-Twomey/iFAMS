@@ -25,7 +25,7 @@ iFAMS = "source"
 
 [project.gui-scripts]
 # this provides an executable to be installed with pipx and uvx
-ifams-gui = "iFAMS:__name__"
+ifams = "iFAMS:__name__"
 
 [project.urls]
 Repository = "https://github.com/prellgroup/iFAMS"

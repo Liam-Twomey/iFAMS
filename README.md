@@ -19,13 +19,15 @@ python3 -m venv venv
 source venv/bin/activate
 pip install build
 python3 -m build .
-pip install -e.
+pip install -e .
 ```
 
 iFAMS can then be run by `python3 source/iFAMS_v6.3_Quant_GUI.py`
 
 ### pipx installation
 `pipx install git+https://github.com/Liam-Twomey/iFAMS` 
+If the installation suceeds, the `ifams` command should now be available in the command line.
 
 ### uv installation
-Alternately, you can use the `uv` package manager ([homepage](https://docs.astral.sh/uv/)), and just `uv tool install git+https://github.com/Liam-Twomey/iFAMS`
+Alternately, you can use the faster, more modern, but less standard `uv` package manager ([homepage](https://docs.astral.sh/uv/)), and just `uv tool install git+https://github.com/Liam-Twomey/iFAMS`
+After installation of the tool, the `ifams   command should be available in the command line.
