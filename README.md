@@ -34,9 +34,17 @@ If the installation succeeds, the `ifams` command should now be available in the
 
 ### uv installation
 Alternately, you can use the faster, more modern, but less standard [uv](https://docs.astral.sh/uv/) package manager.
-After [installing uv](https://docs.astral.sh/uv/getting-started/installation/) iFAMS can be installed with `uv tool install git+https://github.com/Liam-Twomey/iFAMS`. The `ifams` command should be now available in the command line. Alternately, if you want to try the program without installing it, `uvx git+https://github.com/Liam-Twomey/iFAMS`.
+After [installing uv](https://docs.astral.sh/uv/getting-started/installation/) iFAMS can be installed with:
+```
+uv tool install git+https://github.com/Liam-Twomey/iFAMS
+```
+The `ifams` command should be now available in the command line. Alternately, if you want to try the program without installing it:
+```
+uvx git+https://github.com/Liam-Twomey/iFAMS`
+```
 
 ### pip installation
+
 ```
 git clone https://github.com/Liam-Twomey/iFAMS
 cd iFAMS
