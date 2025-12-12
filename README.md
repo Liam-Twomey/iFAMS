@@ -30,7 +30,7 @@ After [installing pipx](https://pipx.pypa.io/latest/installation/), iFAMS can be
 ```
 pipx install git+https://github.com/Liam-Twomey/iFAMS
 ```
-If the installation suceeds, the `ifams` command should now be available in the command line.
+If the installation succeeds, the `ifams` command should now be available in the command line.
 
 ### uv installation
 Alternately, you can use the faster, more modern, but less standard [uv](https://docs.astral.sh/uv/) package manager.
