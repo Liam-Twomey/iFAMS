@@ -1,3 +1,4 @@
+# This file is formatted based on on the PyPA standard. See the documentation at https://packaging.python.org/en/latest/guides/writing-pyproject-toml/ for syntax.
 [project]
 name = "iFAMS"
 version = "6.3.1"
