@@ -13,7 +13,7 @@ This was forked from version 6.3; the changes relative to that version are as fo
 
 Other than import statements, the source code is unmodified.
 
-## Organixation of this repo
+## Organization of this repo
 
 - Documentation, including tutorials, can be found in the `documentation/` directory.
 - The source code can be found in the `source/` directory.
@@ -25,15 +25,16 @@ There are three ways to install iFAMS source code as a python tool, for instance
 ***Note:*** The files in this fork have been uncompressed and reorganized relative to the parent repo at [https://github.com//prellgroup/iFAMS], so no information in this readme is relevant to the upstream. 
 
 ### pipx installation
-pipx` installs the python app so it can be interacted with like a system program.
+`pipx` installs the python app so it can be interacted with like a system program.
+After [installing pipx](https://pipx.pypa.io/latest/installation/), iFAMS can be installed with:
 ```
 pipx install git+https://github.com/Liam-Twomey/iFAMS
 ```
 If the installation suceeds, the `ifams` command should now be available in the command line.
 
 ### uv installation
-Alternately, you can use the faster, more modern, but less standard `uv` package manager ([homepage](https://docs.astral.sh/uv/)), and just `uv tool install git+https://github.com/Liam-Twomey/iFAMS`
-After installation of the tool, the `ifams` command should be available in the command line.
+Alternately, you can use the faster, more modern, but less standard [uv](https://docs.astral.sh/uv/) package manager.
+After [installing uv](https://docs.astral.sh/uv/getting-started/installation/) iFAMS can be installed with `uv tool install git+https://github.com/Liam-Twomey/iFAMS`. The `ifams` command should be available in the command line. Alternately, if you want to try the program without installing it, `uvx git+https://github.com/Liam-Twomey/iFAMS`.
 
 ### pip installation
 ```
